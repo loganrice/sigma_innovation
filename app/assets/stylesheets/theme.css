@@ -1,3 +1,7 @@
+#rice_logo {
+    width: 75px;
+}
+
 /*----------------------
 ---Main Layout Styles---
 ------------------------*/
@@ -14,7 +18,7 @@
   text-indent: 200%;
   white-space: nowrap;
   overflow: hidden;
-    background: url("../assets/logo.png");
+    background: url("../images/logo.png");
 }
 
 #main-nav a.ir-logo span{
@@ -42,7 +46,7 @@ h4,
 h5,
 h6{
   font-family: Lato, sans-serif;
-  color:#8aaad9;
+  color:#9661a8;
 }
 
 h1 {
@@ -60,7 +64,7 @@ h1.section-title{
     line-height:64px;
     font-weight:300;
     text-align:center;
-    color:#8aaad9;
+    color:#9661a8;
     z-index:1;
 }
 
@@ -102,13 +106,13 @@ a:focus {
 }
 
 a {
-  color: #536177;
+  color: #5a3b62;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #637187;
+  color: #6a4b72;
   text-decoration: none;
 }
 
@@ -136,7 +140,7 @@ body {
 
 .btn-theme{
   color:#fff;
-  background-color:#8aaad9;
+  background-color:#9661a8;
   padding:15px 90px;
   font-size:24px;
   font-weight:300;
@@ -150,7 +154,7 @@ body {
 .btn-theme:hover{
   cursor:pointer;
   color:#fff;
-  background-color:#9fb8e0;
+  background-color:#a67bb7;
 }
 
 .btn-theme:active,
@@ -177,7 +181,7 @@ body {
 .btn-theme.transparent:hover,
 .btn-theme.transparent:focus,
 .btn-theme.transparent:active{
-  color:#8aaad9;
+  color:#9661a8;
   background-color:#fff;
   border:2px solid #fff;
   opacity:1;
@@ -204,7 +208,7 @@ body {
 }
 
 #main-nav.scrolled .navbar-brand{
-    color:#8aaad9;
+    color:#9661a8;
 }
 
 #main-nav{
@@ -221,12 +225,12 @@ body {
 }
 
 #main-nav.scrolled .navbar-toggle{
-    color:#8aaad9;
-    border-color:#8aaad9;
+    color:#9661a8;
+    border-color:#9661a8;
 }
 
 #main-nav.scrolled .navbar-toggle .icon-bar{
-    background:#8aaad9;
+    background:#9661a8;
 }
 
 #main-nav .container{
@@ -254,7 +258,7 @@ body {
 #main-nav.scrolled .nav a,
 #main-nav.scrolled .nav a:active,
 #main-nav.scrolled .nav a:hover{
-    color:#8aaad9;
+    color:#9661a8;
 }
 
 
@@ -299,8 +303,8 @@ body {
 
 #main-nav.scrolled .nav a:hover:before,
 #main-nav.scrolled .nav li.active a:before {
-  color: #8aaad9;
-  text-shadow: 12px 0 #8aaad9, -12px 0 #8aaad9;
+  color: #9661a8;
+  text-shadow: 12px 0 #9661a8, -12px 0 #9661a8;
 }
 
 .no-textshadow #main-nav .nav a:before {
@@ -317,7 +321,7 @@ body {
 
 .jumbotron {
     background:transparent;
-    color:#8aaad9;
+    color:#9661a8;
 }
 
 header.jumbotron{
@@ -405,7 +409,7 @@ header.jumbotron{
 
 #services .row.line {
     height:6px;
-    background:#8aaad9;
+    background:#9661a8;
     margin-bottom:24px;
 }
 
@@ -414,7 +418,7 @@ header.jumbotron{
     display:block;
     width:20px;
     height:20px;
-    background:#8aaad9;
+    background:#9661a8;
     border:5px solid #fff;
     border-radius:50%;
 }
@@ -431,7 +435,7 @@ header.jumbotron{
     line-height:130px;
     color:#ccc;
     background:none;
-    border:10px solid #8aaad9;
+    border:10px solid #9661a8;
     border-radius:50%;
     z-index:1;
     -webkit-transition:color 0.2s ease-in;
@@ -448,9 +452,9 @@ header.jumbotron{
     position:absolute;
     width:100%;
     height:100%;
-    background:#8aaad9;
+    background:#9661a8;
     border-radius:50%;
-    border:2px solid #8aaad9;
+    border:2px solid #9661a8;
   -webkit-box-sizing: content-box; 
   -moz-box-sizing: content-box; 
   box-sizing: content-box;
@@ -506,7 +510,7 @@ header.jumbotron{
 ------------------------*/
 
 #about {
-    background:#8aaad9;
+    background:#9661a8;
     color:#fff;
     padding:80px 0;
 }
@@ -547,7 +551,7 @@ header.jumbotron{
 
 #skills {
     padding-top:80px;
-    color:#637187;
+    color:#6a4b72;
   background:#fff;
 }
 
@@ -587,7 +591,7 @@ header.jumbotron{
 
 #skills .skills h2 {
     margin:0 0 80px;
-    color:#637187;
+    color:#6a4b72;
     font-size:24px;
     font-weight:300;
 }
@@ -660,7 +664,7 @@ header.jumbotron{
 
 #filter-works ul li:hover a,
 #filter-works ul li.active a{
-    color:#8aaad9;
+    color:#9661a8;
 }
 
 .masonry-wrapper{
@@ -720,7 +724,7 @@ header.jumbotron{
     height:100%;
     top:0;
     left:0;
-    background:#8aaad9;
+    background:#9661a8;
     opacity:0;
   filter:alpha(opacity=0);
     -webkit-transition:all 0.3s ease-out;
@@ -873,7 +877,7 @@ header.jumbotron{
 .modal-header{
     height:60px;
     border:none;
-    border-bottom:1px solid #8aaad9;
+    border-bottom:1px solid #9661a8;
     margin-bottom:10px;
 }
 
@@ -886,7 +890,7 @@ header.jumbotron{
 }
 
 .modal-header .close:hover{
-    color:#8aaad9;
+    color:#9661a8;
     opacity:1;
 }
 
@@ -914,7 +918,7 @@ header.jumbotron{
 }
 
 .modal-body h1{
-    color:#8aaad9;
+    color:#9661a8;
     margin:200px 0 24px;
     font-size:32px;
 }
@@ -937,7 +941,7 @@ header.jumbotron{
     margin-left:-10px;
     width:30px;
     height:30px;
-    background:url('../assets/loader.gif') no-repeat 50% 50%;
+    background:url('../images/loader.gif') no-repeat 50% 50%;
 }
 
 .modal-body .image-wrapper{
@@ -962,7 +966,7 @@ header.jumbotron{
 
 #twitter {
     color:#fff;
-    background:#8aaad9;
+    background:#9661a8;
     padding:60px 0;
 }
 
@@ -1077,7 +1081,7 @@ header.jumbotron{
 }
 
 #contact .section-title [class*=icon]{
-    color:#8aaad9;
+    color:#9661a8;
   -webkit-transform: rotate(-15deg);
   -moz-transform: rotate(-15deg);
   -ms-transform: rotate(-15deg);
@@ -1125,7 +1129,7 @@ header.jumbotron{
 
 #contact .socials li a:hover{
     padding:0;
-    color:#8aaad9;
+    color:#9661a8;
     text-decoration:none;
 }
 
@@ -1154,7 +1158,7 @@ header.jumbotron{
     font-size:30px;
     line-height:48px;
     font-weight:300;
-    color:#8aaad9;
+    color:#9661a8;
     padding-left:64px;
 }
 
@@ -1168,7 +1172,7 @@ header.jumbotron{
     position:absolute;
     top:0;
     left:5px;
-    color:#8aaad9;
+    color:#9661a8;
     font-size:32px;
     line-height:68px;
     text-align:center;
@@ -1196,22 +1200,22 @@ header.jumbotron{
 }
 
 #contact-form .form-control::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #8aaad9;
+    color:    #9661a8;
 }
 #contact-form .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #8aaad9;
+    color:    #9661a8;
     opacity:1;
 }
 #contact-form .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #8aaad9;
+    color:    #9661a8;
     opacity:1;
 }
 #contact-form .form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #8aaad9;
+    color:    #9661a8;
 }
 
 #contact-form .error-message {
-    background:#8aaad9;
+    background:#9661a8;
     padding:10px 20px;
     position:absolute;
     top:-10px;
@@ -1225,7 +1229,7 @@ header.jumbotron{
 ------------------------*/
 #main-footer {
     background:#fff;
-    color:#8aaad9;
+    color:#9661a8;
     padding:30px 0;
 }
 
@@ -1236,7 +1240,7 @@ header.jumbotron{
     font-size:24px;
     line-height:24px;
     font-weight:normal;
-    color:#8aaad9;
+    color:#9661a8;
 }
 
 #main-footer .small-logo span {
@@ -1259,7 +1263,7 @@ header.jumbotron{
     display:inline-block;
     padding:0 15px;
     line-height:24px;
-    border-right:1px solid #8aaad9;
+    border-right:1px solid #9661a8;
 }
 
 #main-footer ul.footer-nav li:first-child{
@@ -1271,7 +1275,7 @@ header.jumbotron{
 }
 
 #main-footer ul.footer-nav li a{
-    color:#8aaad9;
+    color:#9661a8;
     text-decoration:none;
     font-size:14px;
     line-height:24px;
@@ -1285,12 +1289,12 @@ header.jumbotron{
 
 #main-footer ul.footer-nav li a:hover,
 #main-footer ul.footer-nav li a:active{
-    color:#9fb8e0;
+    color:#a67bb7;
     text-decoration:none;
 }
 
 #main-footer p{
-    color:#8aaad9;
+    color:#9661a8;
     font-size:14px;
     line-height:24px;
     font-weight:400;
@@ -1488,7 +1492,7 @@ header.jumbotron{
 @media (max-width: 768px) {
 
 #main-nav .navbar-brand{
-    color:#8aaad9;
+    color:#9661a8;
 }
 
 #main-nav{
@@ -1497,12 +1501,12 @@ header.jumbotron{
 }
 
 #main-nav .navbar-toggle{
-    color:#8aaad9;
-    border-color:#8aaad9;
+    color:#9661a8;
+    border-color:#9661a8;
 }
 
 #main-nav .navbar-toggle .icon-bar{
-    background:#8aaad9;
+    background:#9661a8;
 }
 
 #main-nav .container{
@@ -1512,7 +1516,7 @@ header.jumbotron{
 #main-nav .nav a,
 #main-nav .nav a:active,
 #main-nav .nav a:hover{
-    color:#8aaad9;
+    color:#9661a8;
     line-height:42px;
     text-align:center;
 }
