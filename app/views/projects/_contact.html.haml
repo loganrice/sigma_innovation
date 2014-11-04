@@ -1,0 +1,57 @@
+%section#contact
+  %div.container
+    %h1.section-title.scrollimation.scale-in 
+      Keep in 
+      %span Touch
+      with us
+    %div.row
+      %div.col-sm-5.contact-info.scrollimation.fade-right
+        %p We specialize in the development of custom software applications using Ruby on Rails.
+        
+        %p We would love to hear from you.
+        
+        %address
+          Sigma Group
+          %br
+          Modesto, California 95356
+          %br
+          (209) 222 - 8041
+        
+        %ul.socials
+          %li
+            %a{ :href => "#fakelink"}
+              %i.icon-twitter"
+          %li
+            %a{ :href => "#fakelink"}
+              %i.icon-facebook
+          %li 
+            %a{ :href => "#fakelink"}
+              %i.icon-dribbble
+          %li
+            %a{ :href => "#fakelink"}
+              %i.icon-google-plus
+
+      %form#contact-form.col-sm-7.scrollimation.fade-left{ :action => "contact.php", :method => "post"}
+        %div.form-group
+          %label.control-label{ :for => "contact-name"} Name
+          %div.controls
+          %i.icon-user
+          %input#contact-name.form-control.input-lg.requiredField{ :name => "contactName", :placeholder => "My name is...",  :type => "text", "data-error-empty" => "Please enter your name"}
+        
+        %div.form-group
+          %label.control-label{ :for => "contact-mail"} Email
+          %div.controls
+          %i.icon-envelope
+          %input#contact-mail.form-control.input-lg.requiredField{ :name => "email", :placeholder => "Please respond at...", :type => "email", "data-error-empty" => "Please enter your email", "data-error-invalid" => "Invalid email address"}
+        
+        %div.form-group
+          %label.control-label{ :for => "contact-message"} Message
+          %div.controls
+            %i.icon-comment
+            %textarea#contact-message.form-control.input-lg.requiredField{ :name => "comments", :placeholder => "I wanna talk about...", :rows => "5", "data-error-empty" => "Please enter your message"}
+        
+        %p 
+          %button.btn.btn-theme.btn-lg{ :name => "submit", :type => "submit", "data-error-message" => "Error!", "data-sending-message" => "Sending...", "data-ok-message" => "Message Sent"}
+            %i.icon-location-arrow
+            Send Message
+        %input{ :type => "hidden", :name => "submitted", :id => "submitted", :value => "true"}
