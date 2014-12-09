@@ -31,8 +31,11 @@ gem 'spring',        group: :development
 
 gem 'pg',            group: :production
 
+
 group :test, :development do 
   gem 'sqlite3'
+  gem 'pry'
+  gem 'letter_opener'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
