@@ -3,8 +3,8 @@ Monologue.config do |config|
   config.site_subtitle = "Central Valley (California) Technology"
   config.site_url = "http://sigmagroup.io"
 
-  config.meta_description = "This is my blog about..."
-  config.meta_keyword = "music, fun"
+  config.meta_description = "This blog is about Agriculture Technology"
+  config.meta_keyword = "ruby on rails, agriculture technology, custom software, modesto, central valley"
 
   config.admin_force_ssl = false
   config.posts_per_page = 10
