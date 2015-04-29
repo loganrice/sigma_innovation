@@ -7,6 +7,8 @@ gem 'haml'
 gem 'rails_12factor', group: :production
 
 gem 'rails', '4.2.0'
+gem 'monologue'
+gem 'responders', '~> 2.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -30,7 +32,7 @@ gem 'pg', group: :production
 
 group :development do 
   gem "letter_opener"
-  gem 'spring'
+  gem 'spring', '1.3.4'
 end
 
 group :test, :development do 
