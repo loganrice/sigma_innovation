@@ -215,8 +215,7 @@ $(document).ready(function() {
 	==============================================*/
 	$.backstretch("<%= asset_path('header-background.jpg') %>");
 
-	$('body').append('<img class="preload-image" src="../images/contact-bg.jpg" style="display:none;"/>');
-
+	$('body').append("<%= image_tag contact-bg.jpg, class: 'preload-image', style: 'display:none;' %>");
 	$('#about').waypoint(function(direction){
 	
 		if($('.preload-image').length){$('.preload-image').remove();}
