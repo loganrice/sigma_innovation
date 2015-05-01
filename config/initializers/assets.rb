@@ -6,6 +6,7 @@ Rails.application.config.assets.precompile += %w( ckeditor/* )
 Rails.application.config.assets.precompile += %w( monologue/foundation_icons/social_foundicons.eot )
 Rails.application.config.assets.precompile += %w( monologue/foundation_icons/social_foundicons.woff )
 Rails.application.config.assets.precompile += %w( monologue/foundation_icons/social_foundicons.ttf )
+Rails.application.config.assets.precompile += %w( .svg .eot .woff .ttf .png .jpg .gif)
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
