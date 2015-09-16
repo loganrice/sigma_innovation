@@ -3,6 +3,6 @@ class AppMailer < ActionMailer::Base
     @future_customer_name = future_customer_name
     @email = email
     @message = message
-    mail from: @email, to: 'logan.rice@sigmagroup.solutions', subject: "#{@future_customer_name} is interested in learning more about Sigma Group"
+    mail from: @email, to: 'loganrice72@gmail.com', subject: "#{@future_customer_name} is interested in learning more about Sigma Group"
   end
 end
